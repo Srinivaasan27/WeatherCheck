@@ -4,3 +4,24 @@
     box-sizing: border-box;
     font-family: 'Hind Madurai', sans-serif;
 }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(0, 110, 255);
+}
+.wrapper {
+    width: 400px;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+}
+.wrapper header {
+    color: rgb(0, 110, 255);
+    font-size: 21px;
+    font-weight: 500;
+    padding: 16px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #bfbfbf;
+}
