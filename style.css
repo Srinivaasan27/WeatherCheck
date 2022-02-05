@@ -91,3 +91,42 @@ header i {
     cursor: pointer;
     background: rgb(0, 110, 255);
 }
+
+.wrapper .weather-part {
+    margin: 30px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.weather-part img {
+    max-width: 125px;
+}
+.weather-part .temp {
+    display: flex;
+    font-size: 70px;
+    font-weight: 500;
+}
+.weather-part .temp .numb {
+    font-weight: 600;
+}
+.weather-part .temp .deg {
+    font-size: 40px;
+    margin: 10px 5px 0 0;
+    display: block;
+}
+.weather-part .weather {
+    font-size: 21px;
+    text-align: center;
+    margin: -5px 20px 15px;
+}
+.weather-part .location {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.location i {
+    font-size: 20px;
+    margin-right: 5px;
+}
