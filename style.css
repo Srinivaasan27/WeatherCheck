@@ -13,12 +13,12 @@ body {
 }
 .wrapper {
     width: 400px;
-    border-radius: 7px;
+    border-radius: 12px;
     background: rgb(255, 255, 255);
 }
 .wrapper header {
     color: rgb(0, 110, 255);
-    font-size: 21px;
+    font-size: 25px;
     font-weight: 500;
     padding: 16px 15px;
     display: flex;
@@ -44,6 +44,24 @@ header i {
 .input-part input {
     text-align: center;
     border: 1px solid #bfbfbf;
+}
+.input-part .info-txt {
+    font-size: 20px;
+    background: rgb(96, 165, 255);
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.info-txt.error {
+    color: red;
+    background: pink;
+    border: 1px solid rgb(253, 177, 190);
+}
+.info-txt.pending {
+    color: rgb(0, 85, 85);
+    background: skyblue;
+    border: 1px solid rgb(114, 194, 226);
 }
 .input-part .separator {
     height: 1px;
